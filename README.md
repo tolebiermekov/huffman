@@ -1,1 +1,2 @@
 # huffman
+We have built a Huffman code tree based on a given list of probabilities. We created list of probabilities in assignment 2 and reused it in this assignment. In addition, we build a tree since we are not able to use any libraries. We have the main function responsible for Huffman coding. Then we walked through the tree to work out the encoding for each item. Rather than go through the tree for each character, we traversed the whole tree in one go and store the results in a dictionary.
